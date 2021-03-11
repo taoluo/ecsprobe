@@ -47,10 +47,10 @@ def _parse_population_asn(path=None):
     as_population_total['ASN'] = as_population_total['ASN'].apply(lambda x: int(x[2:]) )
     return as_population_total
 
-if IS_DEBUG:
-    prefix_as = _parse_prefix2asn('./data/routeviews-rv2-20210303-2000.pfx2as.tsv')
-else:
-    prefix_as = _parse_prefix2asn('./data/debug.pfx2as.tsv')
+# if IS_DEBUG:
+prefix_as = _parse_prefix2asn('./data/routeviews-rv2-20210303-2000.pfx2as.tsv')
+# else:
+#     prefix_as = _parse_prefix2asn('./data/debug.pfx2as.tsv')
 
 as_population = _parse_population_asn(path='./data/APNIC_ASN_population.csv')
 
@@ -133,7 +133,7 @@ def tag_hop_prefix(fname, prefix_to_check,  start, stop):
     return is_hop_prefix
 
 def main(num_workers, fname):
-    num_tasks = num_workers * 1
+    num_tasks = num_workers * 10
     # for each input file
     # for fname in sam_files:
     print("Dividing {}".format(fname))
@@ -166,7 +166,7 @@ def main(num_workers, fname):
         pool.close()
         pool.join()
         endtime = time.time()
-        print("pool execution done, takes %i Min" % ((endtime-starttime)/ 60))
+        print("pool execution done, takes %.2f Min" % ((endtime-starttime)/ 60))
         # collect results
         is_hop_prefix = None
         for res in results:
