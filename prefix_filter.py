@@ -7,6 +7,8 @@ from ripe.atlas.sagan.traceroute import TracerouteResult, Hop, Packet
 # # hop is not None and is ipv4
 import ipaddress as ip
 import os
+import warnings
+
 import multiprocessing as mp
 from io import SEEK_END
 import re
@@ -108,7 +110,7 @@ def tag_hop_prefix(fname, prefix_to_check,  start, stop):
         # jump to start position
         pos = start
         inf.seek(pos)
-
+        multi_match_ips = []
         for line in inf:
             # value = int(line.split(4)[3])
 
@@ -120,8 +122,34 @@ def tag_hop_prefix(fname, prefix_to_check,  start, stop):
                     if len(hop.packets) != 0 and hop.packets[0].origin is not None:
                         # check the pandas table.
                 # update a, b, c based on value ## fixme
-
-                        is_hop_prefix |= prefix_to_check['masked_network_addr'] == (prefix_to_check['mask'] & IP_to_int(hop.packets[0].origin))
+                        is_prefix_match = prefix_to_check['masked_network_addr'] == (prefix_to_check['mask'] & IP_to_int(hop.packets[0].origin))
+                        if is_prefix_match.any():
+                            is_hop_prefix |= is_prefix_match
+                            if is_prefix_match.sum() > 1:
+                                warnings.warn("multi prefix match, IP addr %s" % hop.packets[0].origin)
+                                multi_match_ips.append(hop.packets[0].origin)
+                        # s = time.time()
+                        # for i in range(1000):
+                        #     is_hop_prefix |= is_prefix_match
+                        # e = time.time()
+                        # print(" vectorized or %0.10f sec" % (e-s))
+                        # s = time.time()
+                        # for i in range(1000):
+                        #     a = is_prefix_match.sum() == 0
+                        # e = time.time()
+                        # print(" is_prefix_match.sum() %0.10f sec" % (e - s))
+                        #
+                        # print(" vectorized or %0.10f sec" % (e-s))
+                        # s = time.time()
+                        # for i in range(1000):
+                        #     a = is_prefix_match.any()
+                        # e = time.time()
+                        # print(" is_prefix_match.sum() %0.10f sec" % (e - s))
+                        #
+                        # print('fwefewf')
+                        # if is_prefix_match.sum() > 1:
+                        #     print(prefix_to_check[is_prefix_match])
+                        #     print(hop.packets[0].origin)
 
             #
             # *** END EDIT HERE ***
@@ -130,10 +158,10 @@ def tag_hop_prefix(fname, prefix_to_check,  start, stop):
             if pos >= stop:
                 break
 
-    return is_hop_prefix
+    return is_hop_prefix, multi_match_ips
 
 def main(num_workers, fname):
-    num_tasks = num_workers * 10
+    num_tasks = num_workers * 2
     # for each input file
     # for fname in sam_files:
     print("Dividing {}".format(fname))
@@ -159,30 +187,34 @@ def main(num_workers, fname):
 
         # do it!
         stops = starts[1:] + [f_len]
-        start_stops =  zip(starts, stops)
+        start_stops = zip(starts, stops)
         print("Solving {}".format(fname))
 
         results = [pool.apply_async(tag_hop_prefix, args=(fname, populated_as_prefix[['masked_network_addr','mask']] , start, stop)) for start,stop in start_stops]
         pool.close()
         pool.join()
         endtime = time.time()
-        print("pool execution done, takes %.2f Min" % ((endtime-starttime)/ 60))
+        print("pool execution done, takes %.4f Min" % ((endtime-starttime)/ 60))
         # collect results
         is_hop_prefix = None
+        multi_prefix_ip_list = []
         for res in results:
+            is_hop_prefix_match, multi_match_ip = res.get()
+            multi_prefix_ip_list.extend(multi_match_ip)
             if is_hop_prefix is not None:
-                is_hop_prefix |= res.get()
+                is_hop_prefix |= is_hop_prefix_match
             else:
-                is_hop_prefix = res.get()
+                is_hop_prefix = is_hop_prefix_match
     else:# single core
         is_hop_prefix = tag_hop_prefix( fname, populated_as_prefix[['masked_network_addr','mask']] , 0, f_len)
 
     prefix_as_count['is_hop_prefix'] = is_hop_prefix
     prefix_as_count.to_csv('./data/populated_prefix_hop.csv',index=False)
+    pd.Series(multi_prefix_ip_list).to_csv('./data/multi_prefix_ip_list.csv',index=False)
 
 if __name__ == '__main__':
     if IS_DEBUG:
-        main(os.cpu_count(),'./data/debug_fa4.txt')
+        main(os.cpu_count(),'./data/debug200_fa4.txt')
     else:
         main(os.cpu_count(), './data/fa4.txt')
 
