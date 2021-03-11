@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/lib/cyberpandas" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/lib/ripe-atlas-sagan" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/lib/ripe.atlas.sagan" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/lib/sagan" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/temp/cyberpandas" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/temp/ripe.atlas.sagan" vcs="Git" />
+  </component>
+</project>
