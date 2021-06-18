@@ -1,0 +1,10 @@
+de.hma.rocks
+pl.hma.rocks
+ca.hma.rocks
+nc.us.hma.rocks 
+london.gb.hma.rocks
+gb.hma.rocks
+nv.us.hma.rocks 
+id.hma.rocks
+kr.hma.rocks 
+ut.us.hma.rocks 

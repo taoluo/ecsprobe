@@ -1,0 +1,537 @@
+Obtaining list of servers...
+268 servers matched
+ad.hma.rocks 	 tcp 	 udp
+	( ad ) 	Andorra, Andorra la Vella 
+ae.hma.rocks 	 tcp 	 udp
+	( ae ) 	United Arab Emirates, Dubai 
+af.hma.rocks 	 tcp 	 udp
+	( af ) 	Afghanistan, Kabul 
+ag.hma.rocks 	 tcp 	 udp
+	( ag ) 	Antigua and Barbuda, Saint John's 
+ai.hma.rocks 	 tcp 	 udp
+	( ai ) 	Anguilla, The Valley 
+al.hma.rocks 	 tcp 	 udp
+	( al ) 	Albania, Tirana 
+am.hma.rocks 	 tcp 	 udp
+	( am ) 	Armenia, Tsaghkadzor 
+ao.hma.rocks 	 tcp 	 udp
+	( ao ) 	Angola, Luanda 
+ar.hma.rocks 	 tcp 	 udp
+	( ar ) 	Argentina, Buenos Aires 
+as.hma.rocks 	 tcp 	 udp
+	( as ) 	American Samoa, Pago Pago 
+at.hma.rocks 	 tcp 	 udp
+	( at ) 	Austria, Carinthia, Klagenfurt 
+au.hma.rocks 	 tcp 	 udp
+	( au ) 	Australia, New South Wales, Sydney 
+aw.hma.rocks 	 tcp 	 udp
+	( aw ) 	Aruba, Palm Beach 
+ax.hma.rocks 	 tcp 	 udp
+	( ax ) 	Aland Islands, Mariehamn 
+az.hma.rocks 	 tcp 	 udp
+	( az ) 	Azerbaijan, Qusar 
+ba.hma.rocks 	 tcp 	 udp
+	( ba ) 	Bosnia, Sarajevo 
+bb.hma.rocks 	 tcp 	 udp
+	( bb ) 	Barbados, Worthing 
+bd.hma.rocks 	 tcp 	 udp
+	( bd ) 	Bangladesh, Dhaka 
+be.hma.rocks 	 tcp 	 udp
+	( be ) 	Belgium, Brussels 
+bf.hma.rocks 	 tcp 	 udp
+	( bf ) 	Burkina Faso, Ouagadougou 
+bg.hma.rocks 	 tcp 	 udp
+	( bg ) 	Bulgaria, Sofia 
+bh.hma.rocks 	 tcp 	 udp
+	( bh ) 	Bahrain, Manama 
+bi.hma.rocks 	 tcp 	 udp
+	( bi ) 	Burundi, Bujumbura 
+bj.hma.rocks 	 tcp 	 udp
+	( bj ) 	Benin, Cotonou 
+bm.hma.rocks 	 tcp 	 udp
+	( bm ) 	Bermuda, Hamilton 
+bn.hma.rocks 	 tcp 	 udp
+	( bn ) 	Brunei, Jerudong 
+bo.hma.rocks 	 tcp 	 udp
+	( bo ) 	Bolivia, Santa Cruz 
+br.hma.rocks 	 tcp 	 udp
+	( br ) 	Brazil, Joao Pessoa 
+bs.hma.rocks 	 tcp 	 udp
+	( bs ) 	Bahamas, Freeport 
+bt.hma.rocks 	 tcp 	 udp
+	( bt ) 	Bhutan, Thimphu 
+bw.hma.rocks 	 tcp 	 udp
+	( bw ) 	Botswana, Gaborone 
+by.hma.rocks 	 tcp 	 udp
+	( by ) 	Belarus, Minsk 
+bz.hma.rocks 	 tcp 	 udp
+	( bz ) 	Belize, Belize City 
+ca.hma.rocks 	 tcp 	 udp
+	( ca ) 	Canada, British Columbia, Vancouver 
+cc.hma.rocks 	 tcp 	 udp
+	( cc ) 	Cocos Islands, West Island 
+cd.hma.rocks 	 tcp 	 udp
+	( cd ) 	Congo, Kinshasa 
+cf.hma.rocks 	 tcp 	 udp
+	( cf ) 	Central African Republic, Bangassou 
+cg.hma.rocks 	 tcp 	 udp
+	( cg ) 	Republic of the Congo, Brazzaville 
+ch.hma.rocks 	 tcp 	 udp
+	( ch ) 	Switzerland, Zurich 
+ci.hma.rocks 	 tcp 	 udp
+	( ci ) 	Cote d`Ivoire, Yamoussoukro 
+ck.hma.rocks 	 tcp 	 udp
+	( ck ) 	Cook Islands, Avarua 
+cl.hma.rocks 	 tcp 	 udp
+	( cl ) 	Chile, Santiago 
+cm.hma.rocks 	 tcp 	 udp
+	( cm ) 	Cameroon, Yaounde 
+cn.hma.rocks 	 tcp 	 udp
+	( cn ) 	China, Sichuan Sheng, Chengdu 
+co.hma.rocks 	 tcp 	 udp
+	( co ) 	Colombia, San Andres 
+cr.hma.rocks 	 tcp 	 udp
+	( cr ) 	Costa Rica, San Jose 
+cu.hma.rocks 	 tcp 	 udp
+	( cu ) 	Cuba, Havana 
+cv.hma.rocks 	 tcp 	 udp
+	( cv ) 	Cape Verde, Cidade Velha 
+cx.hma.rocks 	 tcp 	 udp
+	( cx ) 	Christmas Island, Flying Fish Cove 
+cy.hma.rocks 	 tcp 	 udp
+	( cy ) 	Cyprus, Limassol 
+cz.hma.rocks 	 tcp 	 udp
+	( cz ) 	Czech Republic, Prague 
+de.hma.rocks 	 tcp 	 udp
+	( de ) 	Germany, Hesse, Frankfurt 
+dj.hma.rocks 	 tcp 	 udp
+	( dj ) 	Republic of Djibouti, Djibouti 
+dk.hma.rocks 	 tcp 	 udp
+	( dk ) 	Denmark, Copenhagen 
+dm.hma.rocks 	 tcp 	 udp
+	( dm ) 	Dominica, Marigot 
+do.hma.rocks 	 tcp 	 udp
+	( do ) 	Dominican Republic, Punta Cana 
+dz.hma.rocks 	 tcp 	 udp
+	( dz ) 	Algeria, Annaba 
+ec.hma.rocks 	 tcp 	 udp
+	( ec ) 	Ecuador, Quito 
+ee.hma.rocks 	 tcp 	 udp
+	( ee ) 	Estonia, Tallinn 
+eg.hma.rocks 	 tcp 	 udp
+	( eg ) 	Egypt, Cairo 
+er.hma.rocks 	 tcp 	 udp
+	( er ) 	Eritrea, Asmara 
+es.hma.rocks 	 tcp 	 udp
+	( es ) 	Spain, Alicante 
+et.hma.rocks 	 tcp 	 udp
+	( et ) 	Ethiopia, Gondar 
+fi.hma.rocks 	 tcp 	 udp
+	( fi ) 	Finland, Helsinki 
+fj.hma.rocks 	 tcp 	 udp
+	( fj ) 	Fiji, Nadi 
+fk.hma.rocks 	 tcp 	 udp
+	( fk ) 	Falkland Islands, Stanley 
+fo.hma.rocks 	 tcp 	 udp
+	( fo ) 	Faroe Islands, Torshavn 
+fr.hma.rocks 	 tcp 	 udp
+	( fr ) 	France, Paris 
+ga.hma.rocks 	 tcp 	 udp
+	( ga ) 	Gabon, Libreville 
+gb.hma.rocks 	 tcp 	 udp
+	( gb ) 	UK 
+london.gb.hma.rocks 	 tcp 	 udp
+	( gb ) 	UK, London 
+scotland.gb.hma.rocks 	 tcp 	 udp
+	( gb ) 	UK, Scotland, Glasgow 
+gd.hma.rocks 	 tcp 	 udp
+	( gd ) 	Grenada, Saint George 
+ge.hma.rocks 	 tcp 	 udp
+	( ge ) 	Georgia, Tbilisi 
+gh.hma.rocks 	 tcp 	 udp
+	( gh ) 	Ghana, Accra 
+gi.hma.rocks 	 tcp 	 udp
+	( gi ) 	Gibraltar, Catalan 
+gl.hma.rocks 	 tcp 	 udp
+	( gl ) 	Greenland, Ilulissat 
+gm.hma.rocks 	 tcp 	 udp
+	( gm ) 	Gambia, Serekunda 
+gn.hma.rocks 	 tcp 	 udp
+	( gn ) 	Guinea, Conakry 
+gp.hma.rocks 	 tcp 	 udp
+	( gp ) 	Guadeloupe, Le Gosier 
+gq.hma.rocks 	 tcp 	 udp
+	( gq ) 	Equatorial Guinea, Malabo 
+gr.hma.rocks 	 tcp 	 udp
+	( gr ) 	Greece, Patras 
+gt.hma.rocks 	 tcp 	 udp
+	( gt ) 	Guatemala, Guatemala City 
+gu.hma.rocks 	 tcp 	 udp
+	( gu ) 	Guam, Tamuning 
+gw.hma.rocks 	 tcp 	 udp
+	( gw ) 	Guinea-Bissau, Bissau 
+gy.hma.rocks 	 tcp 	 udp
+	( gy ) 	Guyana, Barima-Waini 
+hk.hma.rocks 	 tcp 	 udp
+	( hk ) 	Hong Kong, Shatin 
+hn.hma.rocks 	 tcp 	 udp
+	( hn ) 	Honduras, Tegucigalpa 
+hr.hma.rocks 	 tcp 	 udp
+	( hr ) 	Croatia, Zagreb 
+ht.hma.rocks 	 tcp 	 udp
+	( ht ) 	Haiti, Cap-Haitien 
+hu.hma.rocks 	 tcp 	 udp
+	( hu ) 	Hungary, Budapest 
+id.hma.rocks 	 tcp 	 udp
+	( id ) 	Indonesia, Jakarta 
+ie.hma.rocks 	 tcp 	 udp
+	( ie ) 	Ireland, Dublin 
+il.hma.rocks 	 tcp 	 udp
+	( il ) 	Israel, Petah Tikva 
+in.hma.rocks 	 tcp 	 udp
+	( in ) 	India, Maharashtra, Mumbai 
+iq.hma.rocks 	 tcp 	 udp
+	( iq ) 	Iraq, Baghdad 
+ir.hma.rocks 	 tcp 	 udp
+	( ir ) 	Iran, Isfahan 
+is.hma.rocks 	 tcp 	 udp
+	( is ) 	Iceland, Reykjavik 
+it.hma.rocks 	 tcp 	 udp
+	( it ) 	Italy, Pordenone, Porcia 
+jm.hma.rocks 	 tcp 	 udp
+	( jm ) 	Jamaica, Montego Bay 
+jo.hma.rocks 	 tcp 	 udp
+	( jo ) 	Jordan, Amman 
+jp.hma.rocks 	 tcp 	 udp
+	( jp ) 	Japan, Okinawa, Onna 
+ke.hma.rocks 	 tcp 	 udp
+	( ke ) 	Kenya, Nairobi 
+kg.hma.rocks 	 tcp 	 udp
+	( kg ) 	Kyrgyzstan, Bishkek 
+kh.hma.rocks 	 tcp 	 udp
+	( kh ) 	Cambodia, Phnom Penh 
+ki.hma.rocks 	 tcp 	 udp
+	( ki ) 	Kiribati, Umwa Village 
+km.hma.rocks 	 tcp 	 udp
+	( km ) 	Comoros, Ouani 
+kn.hma.rocks 	 tcp 	 udp
+	( kn ) 	Saint Kitts and Nevis, Basseterre 
+kp.hma.rocks 	 tcp 	 udp
+	( kp ) 	North Korea, Manpo 
+kr.hma.rocks 	 tcp 	 udp
+	( kr ) 	South Korea, Seoul 
+kw.hma.rocks 	 tcp 	 udp
+	( kw ) 	Kuwait, Kuwait City 
+ky.hma.rocks 	 tcp 	 udp
+	( ky ) 	Cayman Islands, Spot Bay 
+kz.hma.rocks 	 tcp 	 udp
+	( kz ) 	Kazakhstan, Shymkent 
+la.hma.rocks 	 tcp 	 udp
+	( la ) 	Laos, Thakhek 
+lb.hma.rocks 	 tcp 	 udp
+	( lb ) 	Lebanon, Beirut 
+lc.hma.rocks 	 tcp 	 udp
+	( lc ) 	Saint Lucia, Gros Islet 
+li.hma.rocks 	 tcp 	 udp
+	( li ) 	Liechtenstein, Vaduz 
+lk.hma.rocks 	 tcp 	 udp
+	( lk ) 	Sri Lanka, Moratuwa 
+lr.hma.rocks 	 tcp 	 udp
+	( lr ) 	Liberia, Monrovia 
+ls.hma.rocks 	 tcp 	 udp
+	( ls ) 	Lesotho, Peka 
+lt.hma.rocks 	 tcp 	 udp
+	( lt ) 	Lithuania, Siauliai 
+lu.hma.rocks 	 tcp 	 udp
+	( lu ) 	Luxembourg 
+lv.hma.rocks 	 tcp 	 udp
+	( lv ) 	Latvia, Riga 
+ly.hma.rocks 	 tcp 	 udp
+	( ly ) 	Libya, Ghadames 
+ma.hma.rocks 	 tcp 	 udp
+	( ma ) 	Morocco, Fes 
+mc.hma.rocks 	 tcp 	 udp
+	( mc ) 	Monaco, Monaco 
+md.hma.rocks 	 tcp 	 udp
+	( md ) 	Moldova, Chisinau 
+me.hma.rocks 	 tcp 	 udp
+	( me ) 	Montenegro, Becici 
+mg.hma.rocks 	 tcp 	 udp
+	( mg ) 	Madagascar, Antsiranana 
+mk.hma.rocks 	 tcp 	 udp
+	( mk ) 	Macedonia, Skopje 
+ml.hma.rocks 	 tcp 	 udp
+	( ml ) 	Mali, Bamako 
+mm.hma.rocks 	 tcp 	 udp
+	( mm ) 	Myanmar, Yangon 
+mn.hma.rocks 	 tcp 	 udp
+	( mn ) 	Mongolia, Suhbaatar 
+mo.hma.rocks 	 tcp 	 udp
+	( mo ) 	Macau, Macau 
+ms.hma.rocks 	 tcp 	 udp
+	( ms ) 	Montserrat, Plymouth 
+mt.hma.rocks 	 tcp 	 udp
+	( mt ) 	Malta, Cospicua 
+mu.hma.rocks 	 tcp 	 udp
+	( mu ) 	Mauritius, Port Louis 
+mv.hma.rocks 	 tcp 	 udp
+	( mv ) 	Maldives, Male 
+mw.hma.rocks 	 tcp 	 udp
+	( mw ) 	Malawi, Lilongwe 
+mx.hma.rocks 	 tcp 	 udp
+	( mx ) 	Mexico, Sinaloa, Mazatlan 
+my.hma.rocks 	 tcp 	 udp
+	( my ) 	Malaysia, Kuala Lumpur 
+mz.hma.rocks 	 tcp 	 udp
+	( mz ) 	Mozambique, Pemba 
+na.hma.rocks 	 tcp 	 udp
+	( na ) 	Namibia, Windhoek 
+nc.hma.rocks 	 tcp 	 udp
+	( nc ) 	New Caledonia, Noumea 
+ne.hma.rocks 	 tcp 	 udp
+	( ne ) 	Niger, Niamey 
+nf.hma.rocks 	 tcp 	 udp
+	( nf ) 	Norfolk Island, Kingston 
+ng.hma.rocks 	 tcp 	 udp
+	( ng ) 	Nigeria, Lagos 
+ni.hma.rocks 	 tcp 	 udp
+	( ni ) 	Nicaragua, Managua 
+nl.hma.rocks 	 tcp 	 udp
+	( nl ) 	Netherlands, Amsterdam 
+no.hma.rocks 	 tcp 	 udp
+	( no ) 	Norway, Oslo 
+np.hma.rocks 	 tcp 	 udp
+	( np ) 	Nepal, Janakpur 
+nr.hma.rocks 	 tcp 	 udp
+	( nr ) 	Nauru, Anabar 
+nu.hma.rocks 	 tcp 	 udp
+	( nu ) 	Niue, Alofi 
+nz.hma.rocks 	 tcp 	 udp
+	( nz ) 	New Zealand, Auckland 
+om.hma.rocks 	 tcp 	 udp
+	( om ) 	Oman, Salalah 
+pa.hma.rocks 	 tcp 	 udp
+	( pa ) 	Panama, Panama City 
+pe.hma.rocks 	 tcp 	 udp
+	( pe ) 	Peru, Cusco 
+pg.hma.rocks 	 tcp 	 udp
+	( pg ) 	Papua New Guinea, Alotau 
+ph.hma.rocks 	 tcp 	 udp
+	( ph ) 	Philippines, Baguio 
+pk.hma.rocks 	 tcp 	 udp
+	( pk ) 	Pakistan, Karachi 
+pl.hma.rocks 	 tcp 	 udp
+	( pl ) 	Poland, Warsaw 
+pm.hma.rocks 	 tcp 	 udp
+	( pm ) 	Saint Pierre and Miquelon, Saint-Pierre 
+pn.hma.rocks 	 tcp 	 udp
+	( pn ) 	Pitcairn Islands, Adamstown 
+pr.hma.rocks 	 tcp 	 udp
+	( pr ) 	Puerto Rico, San Juan 
+ps.hma.rocks 	 tcp 	 udp
+	( ps ) 	Palestine, Bethlehem 
+pt.hma.rocks 	 tcp 	 udp
+	( pt ) 	Portugal, Leiria 
+pw.hma.rocks 	 tcp 	 udp
+	( pw ) 	Palau, Melekeok 
+py.hma.rocks 	 tcp 	 udp
+	( py ) 	Paraguay, Boqueron 
+qa.hma.rocks 	 tcp 	 udp
+	( qa ) 	Qatar, Doha 
+ro.hma.rocks 	 tcp 	 udp
+	( ro ) 	Romania, Bucharest 
+rs.hma.rocks 	 tcp 	 udp
+	( rs ) 	Serbia, Belgrade 
+ru.hma.rocks 	 tcp 	 udp
+	( ru ) 	Russia, Moscow 
+rw.hma.rocks 	 tcp 	 udp
+	( rw ) 	Rwanda, Kigali 
+sa.hma.rocks 	 tcp 	 udp
+	( sa ) 	Saudi Arabia, Riyadh 
+sb.hma.rocks 	 tcp 	 udp
+	( sb ) 	Solomon Islands, Honiara 
+sd.hma.rocks 	 tcp 	 udp
+	( sd ) 	Sudan, Khartoum 
+se.hma.rocks 	 tcp 	 udp
+	( se ) 	Sweden, Stockholm, Nacka 
+sg.hma.rocks 	 tcp 	 udp
+	( sg ) 	Republic of Singapore, Singapore 
+sh.hma.rocks 	 tcp 	 udp
+	( sh ) 	Saint Helena, Tristan Da Cunha 
+si.hma.rocks 	 tcp 	 udp
+	( si ) 	Slovenia, Vrhnika 
+sj.hma.rocks 	 tcp 	 udp
+	( sj ) 	Svalbard and Jan Mayen, Longyearbyen 
+sk.hma.rocks 	 tcp 	 udp
+	( sk ) 	Slovakia, Bratislava 
+sm.hma.rocks 	 tcp 	 udp
+	( sm ) 	San Marino, San Marino 
+sn.hma.rocks 	 tcp 	 udp
+	( sn ) 	Senegal, Dakar 
+so.hma.rocks 	 tcp 	 udp
+	( so ) 	Somalia, Afgooye 
+sr.hma.rocks 	 tcp 	 udp
+	( sr ) 	Suriname, Paramaribo 
+st.hma.rocks 	 tcp 	 udp
+	( st ) 	Sao Tome and Principe, Sao Tome 
+sv.hma.rocks 	 tcp 	 udp
+	( sv ) 	El Salvador, San Miguel 
+sy.hma.rocks 	 tcp 	 udp
+	( sy ) 	Syria, Ad Darah 
+sz.hma.rocks 	 tcp 	 udp
+	( sz ) 	Swaziland, Manzini 
+tc.hma.rocks 	 tcp 	 udp
+	( tc ) 	Turks and Caicos Islands, Balfour Town 
+td.hma.rocks 	 tcp 	 udp
+	( td ) 	Chad, N'Djamena 
+tg.hma.rocks 	 tcp 	 udp
+	( tg ) 	Togo, Lome 
+th.hma.rocks 	 tcp 	 udp
+	( th ) 	Thailand, Bangkok 
+tj.hma.rocks 	 tcp 	 udp
+	( tj ) 	Tajikistan, Dushanbe 
+tk.hma.rocks 	 tcp 	 udp
+	( tk ) 	Tokelau, Atafu 
+tm.hma.rocks 	 tcp 	 udp
+	( tm ) 	Turkmenistan, Ashgabat 
+tn.hma.rocks 	 tcp 	 udp
+	( tn ) 	Tunisia, Mahdia 
+to.hma.rocks 	 tcp 	 udp
+	( to ) 	Tonga, Nukualofa 
+tr.hma.rocks 	 tcp 	 udp
+	( tr ) 	Turkey, Istanbul 
+tt.hma.rocks 	 tcp 	 udp
+	( tt ) 	Trinidad and Tobago, San Fernando 
+tv.hma.rocks 	 tcp 	 udp
+	( tv ) 	Tuvalu, Vaitupu 
+tw.hma.rocks 	 tcp 	 udp
+	( tw ) 	Taiwan, Taipei 
+tz.hma.rocks 	 tcp 	 udp
+	( tz ) 	Tanzania, Arusha 
+ua.hma.rocks 	 tcp 	 udp
+	( ua ) 	Ukraine, Odessa 
+ug.hma.rocks 	 tcp 	 udp
+	( ug ) 	Uganda, Kampala 
+us.hma.rocks 	 tcp 	 udp
+	( us ) 	USA 
+liberty.hma.rocks 	 tcp 	 udp
+	( us )  USA, Liberty Island 
+ak.us.hma.rocks 	 tcp 	 udp
+	( us ) 	USA, Alaska, Anchorage 
+al.us.hma.rocks 	 tcp 	 udp
+	( us ) 	USA, Alabama, Montgomery 
+ar.us.hma.rocks 	 tcp 	 udp
+	( us ) 	USA, Arkansas, Magnolia 
+az.us.hma.rocks 	 tcp 	 udp
+	( us ) 	USA, Arizona, Phoenix 
+ca.us.hma.rocks 	 tcp 	 udp
+	( us ) 	USA, California, Los Angeles 
+ct.us.hma.rocks 	 tcp 	 udp
+	( us ) 	USA, Connecticut, Trumbull 
+de.us.hma.rocks 	 tcp 	 udp
+	( us ) 	USA, Delaware, Wilmington 
+fl.us.hma.rocks 	 tcp 	 udp
+	( us ) 	USA, Florida, Miami 
+ga.us.hma.rocks 	 tcp 	 udp
+	( us ) 	USA, Georgia, Atlanta 
+hi.us.hma.rocks 	 tcp 	 udp
+	( us ) 	USA, Hawaii, Honolulu 
+ia.us.hma.rocks 	 tcp 	 udp
+	( us ) 	USA, Iowa, Des Moines 
+id.us.hma.rocks 	 tcp 	 udp
+	( us ) 	USA, Idaho, Idaho Falls 
+il.us.hma.rocks 	 tcp 	 udp
+	( us ) 	USA, Illinois, Chicago 
+in.us.hma.rocks 	 tcp 	 udp
+	( us ) 	USA, Indiana, South Bend 
+ks.us.hma.rocks 	 tcp 	 udp
+	( us ) 	USA, Kansas, Wichita 
+ky.us.hma.rocks 	 tcp 	 udp
+	( us ) 	USA, Kentucky, Louisville 
+la.us.hma.rocks 	 tcp 	 udp
+	( us ) 	USA, Louisiana, New Orleans 
+ma.us.hma.rocks 	 tcp 	 udp
+	( us ) 	USA, Massachusetts, Boston 
+md.us.hma.rocks 	 tcp 	 udp
+	( us ) 	USA, Maryland, Baltimore 
+me.us.hma.rocks 	 tcp 	 udp
+	( us ) 	USA, Maine, Bath 
+mi.us.hma.rocks 	 tcp 	 udp
+	( us ) 	USA, Michigan, Lansing 
+mn.us.hma.rocks 	 tcp 	 udp
+	( us ) 	USA, Minnesota, Saint Paul 
+mo.us.hma.rocks 	 tcp 	 udp
+	( us ) 	USA, Missouri, Kansas City 
+ms.us.hma.rocks 	 tcp 	 udp
+	( us ) 	USA, Mississippi, Louisville 
+mt.us.hma.rocks 	 tcp 	 udp
+	( us ) 	USA, Montana, Billings 
+nc.us.hma.rocks 	 tcp 	 udp
+	( us ) 	USA, North Carolina, Asheville 
+nd.us.hma.rocks 	 tcp 	 udp
+	( us ) 	USA, North Dakota, Grand Forks 
+ne.us.hma.rocks 	 tcp 	 udp
+	( us ) 	USA, Nebraska, Omaha 
+nh.us.hma.rocks 	 tcp 	 udp
+	( us ) 	USA, New Hampshire, Bedford 
+nm.us.hma.rocks 	 tcp 	 udp
+	( us ) 	USA, New Mexico, Albuquerque 
+nv.us.hma.rocks 	 tcp 	 udp
+	( us ) 	USA, Nevada, Las Vegas 
+ny.us.hma.rocks 	 tcp 	 udp
+	( us ) 	USA, New York, Manhattan 
+oh.us.hma.rocks 	 tcp 	 udp
+	( us ) 	USA, Ohio, Columbus 
+ok.us.hma.rocks 	 tcp 	 udp
+	( us ) 	USA, Oklahoma, Oklahoma City 
+pa.us.hma.rocks 	 tcp 	 udp
+	( us ) 	USA, Pennsylvania, Wilkes-Barre 
+ri.us.hma.rocks 	 tcp 	 udp
+	( us ) 	USA, Rhode Island, Providence 
+sc.us.hma.rocks 	 tcp 	 udp
+	( us ) 	USA, South Carolina, Columbia 
+sd.us.hma.rocks 	 tcp 	 udp
+	( us ) 	USA, South Dakota, Sioux Falls 
+tn.us.hma.rocks 	 tcp 	 udp
+	( us ) 	USA, Tennessee, Nashville 
+tx.us.hma.rocks 	 tcp 	 udp
+	( us ) 	USA, Texas, Dallas 
+ut.us.hma.rocks 	 tcp 	 udp
+	( us ) 	USA, Utah, Salt Lake City 
+va.us.hma.rocks 	 tcp 	 udp
+	( us ) 	USA, Virginia, Ashburn 
+vt.us.hma.rocks 	 tcp 	 udp
+	( us ) 	USA, Vermont, Rutland 
+wa.us.hma.rocks 	 tcp 	 udp
+	( us ) 	USA, Washington, Seattle 
+wi.us.hma.rocks 	 tcp 	 udp
+	( us ) 	USA, Wisconsin, Madison 
+wv.us.hma.rocks 	 tcp 	 udp
+	( us ) 	USA, West Virginia, Philippi 
+wy.us.hma.rocks 	 tcp 	 udp
+	( us ) 	USA, Wyoming, Cheyenne 
+uy.hma.rocks 	 tcp 	 udp
+	( uy ) 	Uruguay, Montevideo 
+uz.hma.rocks 	 tcp 	 udp
+	( uz ) 	Uzbekistan, Samarkand 
+va.hma.rocks 	 tcp 	 udp
+	( va ) 	Vatican, Vatican City 
+vc.hma.rocks 	 tcp 	 udp
+	( vc ) 	Saint Vincent and the Grenadines, Kingstown 
+ve.hma.rocks 	 tcp 	 udp
+	( ve ) 	Venezuela, Caracas 
+vg.hma.rocks 	 tcp 	 udp
+	( vg ) 	British Virgin Islands, Tortola 
+vn.hma.rocks 	 tcp 	 udp
+	( vn ) 	Vietnam, Ho Chi Minh City 
+vu.hma.rocks 	 tcp 	 udp
+	( vu ) 	Vanuatu, Loltong 
+ws.hma.rocks 	 tcp 	 udp
+	( ws ) 	Samoa, Matatufu 
+ye.hma.rocks 	 tcp 	 udp
+	( ye ) 	Yemen, Sanaa 
+za.hma.rocks 	 tcp 	 udp
+	( za ) 	South Africa, Johannesburg 
+zm.hma.rocks 	 tcp 	 udp
+	( zm ) 	Zambia, Lusaka 
+zw.hma.rocks 	 tcp 	 udp	( zw ) 	Zimbabwe, Harare 
