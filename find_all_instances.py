@@ -2,12 +2,14 @@ import os
 import shlex, subprocess
 from functools import partial
 
-instance_list = [("nord", "SLC")] #, ("nord", "LA")]
-vpn_server_file = './data/VPN/ham_servers.txt'
-VPN_provider = os.path.basename(vpn_server_file).split('.')[0]
+instance_list = [("nord", "SLC")]  # , ("nord", "LA")]
+vpn_server_file = "./data/VPN/ham_servers.txt"
+VPN_provider = os.path.basename(vpn_server_file).split(".")[0]
 with open(vpn_server_file) as f:
-    instance_list = [l.strip() for l in f if len(l.strip())!=0] 
-MOCK=True
+    instance_list = [l.strip() for l in f if len(l.strip()) != 0]
+MOCK = True
+
+
 def switch_VPN_cmd(vpn_provider, instance):
     if True:
         return "echo %s" % instance
@@ -46,11 +48,17 @@ class HMA_VPN:
 
     def __enter__(self):
         # assert self.server != None
-        
+
         if MOCK:
             start_vpn_cmd = ["python", "mock_hmvpn.py", "-p", "udp", self.server]
         else:
-            start_vpn_cmd = ["./VPN/hma-vpn.sh","-c", "/tmp/vpnlogin", "-d", self.server]
+            start_vpn_cmd = [
+                "./VPN/hma-vpn.sh",
+                "-c",
+                "/tmp/vpnlogin",
+                "-d",
+                self.server,
+            ]
         self.proc = subprocess.Popen(
             start_vpn_cmd,
             stdin=subprocess.PIPE,
@@ -60,13 +68,13 @@ class HMA_VPN:
             preexec_fn=os.setsid,
         )
         for i in range(33):
-            time.sleep(0.3)  
-            
+            time.sleep(0.3)
+
             if MOCK:
                 check_status_cmd = "echo Connected |grep Connected"
             else:
                 check_status_cmd = "./VPN/hma-vpn.sh -s |grep Connected"
-            a = subprocess.check_output(check_status_cmd , shell=True).decode("utf8")
+            a = subprocess.check_output(check_status_cmd, shell=True).decode("utf8")
             # print(a)
             if a.startswith("Connected"):
                 break
@@ -81,12 +89,12 @@ class HMA_VPN:
         #     os.getpgid(self.proc.pid), signal.SIGTERM
         # )  # Send the signal to all the process groups
         # self.proc.terminate()
-        # output = subprocess.check_output("echo x", shell=True)  
+        # output = subprocess.check_output("echo x", shell=True)
         if MOCK:
             kill_deamon_cmd = f"kill {self.proc.pid}"
         else:
-            kill_deamon_cmd ="./VPN/hma-vpn.sh -x"
-        output = subprocess.check_output(kill_deamon_cmd, shell=True) 
+            kill_deamon_cmd = "./VPN/hma-vpn.sh -x"
+        output = subprocess.check_output(kill_deamon_cmd, shell=True)
 
         self.proc.wait()
 
@@ -100,14 +108,11 @@ def valid_ip(address):
         return False
 
 
-
 # DNS_addr='8.8.8.8'
 DNS_addr = "119.29.29.29"
 iter_n = 20
 myaddr_gg = "o-o.myaddr.l.google.com"
-loop_dig_cmd = (
-    f"for i in `seq 1 {iter_n}`; do sleep 0.1; dig @{DNS_addr}  {myaddr_gg}  TXT +short; done"
-)
+loop_dig_cmd = f"for i in `seq 1 {iter_n}`; do sleep 0.1; dig @{DNS_addr}  {myaddr_gg}  TXT +short; done"
 myip_cmd = f"dig @ns1.google.com o-o.myaddr.l.google.com  TXT +short"
 
 # args = shlex.split(dig_cmd)
@@ -174,8 +179,8 @@ for instance in instance_list:
     # VPN_provider = 'nord'
     # instance = 'SLC'
     # vpn.server = 'uta.us.hm'
-    print( instance)
-    with HMA_VPN("uta.us.hm") as vpn:
+    print(instance)
+    with HMA_VPN(instance) as vpn:
 
         # run_cmd(switch_VPN_cmd(VPN_provider, instance))
         my_ip_addr = run_cmd(myip_cmd).strip()[1:-1]
@@ -195,28 +200,30 @@ for instance in instance_list:
 pop_addr_pat = re.compile("'[a-f0-9\.:]+']$")
 pop_ip_set = set()
 import ipaddress
-with open('./VPN_PoP_IP.csv','r') as f:
+
+with open("./VPN_PoP_IP.csv", "r") as f:
     for line in f:
         print(line)
-        print(re.findall(pop_addr_pat,line)[0][1:-3])
-        pop_ip_set.add(re.findall(pop_addr_pat,line)[0][1:-3])
+        print(re.findall(pop_addr_pat, line)[0][1:-3])
+        pop_ip_set.add(re.findall(pop_addr_pat, line)[0][1:-3])
     print(len(pop_ip_set))
     print(pop_ip_set)
-    
-    
+
+
 def _is_ip_v4_or_v6(ip_addr):
-    if '.' in ip_addr:
+    if "." in ip_addr:
         return "v4"
-    elif ':' in ip_addr:
+    elif ":" in ip_addr:
         return "v6"
     else:
         return None
-    
+
+
 v4prefix_pop_mapping = {}
 v6prefix_pop_mapping = {}
-with open('./data/GPDNS_backend_ipprefix.txt','r') as f:
+with open("./data/GPDNS_backend_ipprefix.txt", "r") as f:
     for line in f:
-        l = line.strip().split(' ')
+        l = line.strip().split(" ")
         if _is_ip_v4_or_v6(l[0]) == "v4":
             v4prefix_pop_mapping[ipaddress.IPv4Network(l[0])] = l[1]
         elif _is_ip_v4_or_v6(l[0]) == "v6":
@@ -224,14 +231,13 @@ with open('./data/GPDNS_backend_ipprefix.txt','r') as f:
 
 for popip in pop_ip_set:
     if _is_ip_v4_or_v6(l[0]) == "v4":
-        search_dict =  v4prefix_pop_mapping
+        search_dict = v4prefix_pop_mapping
     else:
         assert _is_ip_v4_or_v6(l[0]) == "v6"
-        search_dict =  v6prefix_pop_mapping
-    
+        search_dict = v6prefix_pop_mapping
+
     for prefix, popname in search_dict.items():
         if ipaddress.ip_address(popip) in prefix:
-            print(popip,popname)
+            print(popip, popname)
     else:
         print("pop prefix not matched")
-
